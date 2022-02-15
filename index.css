@@ -1,0 +1,204 @@
+.text {
+    font-size: 50px;
+}
+
+.a {
+    font-family: 'Kaisei Decol', serif;
+    margin-top: 15%;
+    font-size: 45px;
+    font-style: italic;
+}
+
+.b {
+    font-size: 22px;
+    font-style: italic;
+}
+
+.button {
+    width: 150px;
+    height: 50px;
+    border:none;
+    border:solid 2px rgba(0, 14, 61, 0.877);
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0);
+    font-size: 20px;
+    padding: 10px 35px 10px 35px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.button:hover {
+    background: rgba(13, 23, 53, 0.692);
+    color: white; 
+}
+
+.ctext {
+    font-size: 20px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contact {
+    margin-top: 15%;
+    margin-bottom: 15px; 
+    border: solid 1px white; 
+    padding: 20px 20px 20px 20px; 
+    border-radius: 10px; 
+    width:360px; 
+    background-color: rgba(51, 12, 51, 0.267);
+}
+
+.loginbutton {
+    background-color: rgb(0, 143, 226); 
+    color: white; 
+    border-radius: 3px; 
+    padding: 5px 7px 5px 7px;
+    width: 320px;
+    font-size: 18px;
+    font-weight: 700px;
+}
+
+.reg {
+    margin-top: 15%;
+    color: rgb(217, 255, 0);
+}
+
+.bubbles{
+    position:relative;
+    animation:truck 5s infinite;
+}
+
+@keyframes truck{
+    from{left:0px;}
+    to{left: 20%;}
+
+    0%{
+        transform:translate(0);
+        opacity:0;
+    }
+    50%{
+        
+        opacity:1;
+    }
+    70%{
+        transform:translate(0);
+        opacity:0;
+    }
+}
+
+.p1{
+    text-align: justify;
+    font-size:22px;
+    font-weight: 500;
+    font-family:serif;
+}
+
+.divider
+{
+	position: relative;
+	margin-top: 20px;
+	height: 2px;
+}
+
+.div-transparent:before
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 5%;
+	right: 5%;
+	width: 90%;
+	height: 3px;
+	background-image: linear-gradient(to right, transparent, rgb(181, 187, 196), transparent);
+}
+
+.div-dot:after
+{
+	content: "";
+	position: absolute;
+	z-index: 1;
+	top: -4px;
+	left: calc(50% - 10px);
+	width: 11px;
+	height: 11px;
+	background-color: goldenrod;
+	border: 2px solid rgb(121, 122, 124);
+	border-radius: 50%;
+	box-shadow: inset 0 0 0 2px white,
+					0 0 0 4px white;
+}
+
+.z1{
+    padding:30px;
+     font-size: 20px;
+     font-weight: bold;
+ }
+ .z1 .thumbnail{
+     padding:50px;
+ }
+
+ .text {
+    color: rgb(44, 18, 18);
+    font-size: large;
+    font-weight: 600;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+ }
+
+ .hover {
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+    font-size: 25px;
+    font-family:Times New Roman, Times, serif;
+    font-weight: 600;
+}
+
+.hover:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.hover:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.button {
+    width: 150px;
+    height: 50px;
+    border:none;
+    border:solid 2px rgba(39, 84, 231, 0.877);
+    border-radius: 5px;
+    background: rgba(255, 255, 255,0);
+    font-size: 20px;
+    padding: 5px 15px 10px 15px;
+    font-size: x-large;
+    font-family: serif;
+    color: darkslateblue;
+}
+
+.button:hover {
+    background: rgba(19, 69, 233, 0.692);
+    color: white; 
+}
+
+.three {
+    font-family: 'Kaisei Decol', serif;
+    font-style: italic;
+} 
+
+.sendbutton {
+    background-color: rgb(0, 143, 226); 
+    color: white; 
+    border-radius: 3px; 
+    padding: 5px 7px 5px 7px;
+}
